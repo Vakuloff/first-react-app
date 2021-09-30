@@ -1,6 +1,7 @@
 import classes from './Profile.module.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
     return (
@@ -10,22 +11,9 @@ const Profile = () => {
 					<img className={classes.banner} src="https://media.gettyimages.com/photos/toronto-ontario-canada-picture-id500256497?s=612x612" alt="banner" />
 				</div>
 				<div>
-					ava
+					ava + desccription
 				</div>
-				<div>
-					My post
-					<div>
-						New Post
-					</div>
-					<div className={classes.posts}>
-						<div className={classes.item}>
-							Post1
-						</div>
-						<div className={classes.item}>
-							Post2
-						</div>
-					</div>
-				</div>
+				<MyPosts />
 			</div>
     	</Col>
     );

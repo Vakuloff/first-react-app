@@ -1,5 +1,5 @@
 .content{
-	background-color: #009;
+	background-color: #00f;
 	color:  #fff;
 }
 .imgwrapper{
@@ -11,4 +11,7 @@
 	width: 100%;
 	height: auto;
 	margin-top: -150px;
+}
+.avatar{
+	width: 80px;
 }
