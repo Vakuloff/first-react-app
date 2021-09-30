@@ -1,0 +1,14 @@
+.content{
+	background-color: #009;
+	color:  #fff;
+}
+.imgwrapper{
+	max-height: 200px;
+	overflow: hidden;
+}
+.banner{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: -150px;
+}

@@ -1,0 +1,21 @@
+.nav{
+  background-color: #666;
+}
+.nav ul{
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.nav ul li{
+  list-style: none;
+}
+.item a{
+  color: #fff;
+  text-decoration: none;
+}
+.item a:hover{
+  color: #FF7F50;
+}
+.item.active a{
+  text-decoration: underline;
+  color: #FF7F50;
+}
